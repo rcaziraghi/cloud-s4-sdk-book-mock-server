@@ -5,3 +5,5 @@ applications:
   buildpacks:
   - nodejs_buildpack
   random-route: true
+env:
+  destinations: [{'name': 'S4HC', 'url': 'https://odata-mock-server-thankful-mandrill-vd.cfapps.us10.hana.ondemand.com', 'username': 'DUMMY', 'password': 'dummy'}]
